@@ -1,0 +1,15 @@
+Name: Lynden Jones
+SID: 1661689
+CCID: lgjones
+CMPUT 275, Winter 2022
+
+Assignment 1 Navigation System: Part 2
+
+
+Level of Collaboration:
+   As per instructed, I comleted this exercise completely solo. I did not collaborate with any classmates. I did however refer to resources like our class notes/recordings as well as consulting online forums for looking at proper c++11 syntax etc, but at no point was any code ever copied from any student or source on the internet.
+
+Running Instrucions:
+   I have provided a Makefile in the soln directory that has the targets 'run'(default) and 'clean'. Typing 'make' in the soln directory will open a new terminal running the server and will run the client in the existing terminal. Note that this makefile assumes that there is an execudable in the server directory called server. To create this executable go into the server where I have provided a makefile that has targets for each object, but namely has a default target called 'server' that compiles and links objects to the server executable. So in short, type make in the server directory before typing make in the soln directory.
+
+   Both makefiles have 'clean' targets which remove executables and object files as well as pipes where applicable.
